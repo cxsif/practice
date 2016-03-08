@@ -1,9 +1,0 @@
-            #region
-            Console.WriteLine("请输入数学成绩:");
-            int math = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("请输入语文成绩:");
-            int chinese = Convert.ToInt32(Console.ReadLine());
-            bool first = math > 90 && chinese > 90;
-            Console.WriteLine("\"张三的语文成绩和数学成绩都大于90\"这句话的结果是:{0}", first);
-            Console.ReadKey();
-            #endregion

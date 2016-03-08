@@ -1,0 +1,77 @@
+            #region
+            Console.WriteLine("请输入数学成绩:");
+            int math = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("请输入语文成绩:");
+            int chinese = Convert.ToInt32(Console.ReadLine());
+            bool first = math > 90 && chinese > 90;
+            Console.WriteLine("\"张三的语文成绩和数学成绩都大于90\"这句话的结果是:{0}", first);
+            Console.ReadKey();
+            #endregion
+           
+           
+           
+            #region
+            Console.WriteLine("请输入年份:");
+            int year = Convert.ToInt32(Console.ReadLine());
+            bool isright = (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+            Console.WriteLine(isright);
+            Console.ReadKey();
+            #endregion
+            
+            
+             #region
+            Console.WriteLine("请输入年份:");
+            int year = Convert.ToInt32(Console.ReadLine());
+            bool isright = (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+            Console.WriteLine(isright);
+            Console.ReadKey();
+            #endregion
+            
+            
+            //#region  数据类型的转化
+            ////int a = (int)3.14;
+            ////Console.WriteLine(a);                                                          
+            //int a = 520;
+            //int b = 1314;
+            //Console.WriteLine(a.ToString()+b.ToString());
+            //Console.ReadKey();
+            //#endregion
+            
+             #region
+            //Console.WriteLine("请输入年份:");
+            //int year = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("请输入月份:");
+            //int month = Convert.ToInt32(Console.ReadLine());
+            //switch (month)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 9:
+            //    case 12:
+            //        Console.WriteLine("这个月有31天");
+            //        break;
+             case 2:
+            //        if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0)
+            //        {
+            //            Console.WriteLine("这个月有29天");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("这个月有28天");
+            //        }
+            //        break;
+            //    default:
+            //        Console.WriteLine("这个月有30天");
+            //        break;
+            //}
+            //Console.ReadKey(); 
+            Person person = new Person();
+             person.name = "我叫崔小胜";
+            Console.WriteLine(person.name);
+            Console.WriteLine(days.sd);
+            Console.ReadKey();
+
+            #endregion
+        }
